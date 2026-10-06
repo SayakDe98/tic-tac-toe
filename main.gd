@@ -96,7 +96,7 @@ func show_game_over_menu():
 		$GameOverMenu.get_node("ResultLabel").text = "Player 1 Wins!!"
 	elif winner == -1:
 		$GameOverMenu.get_node("ResultLabel").text = "Player 2 Wins!!"
-	elif moves == 9:
+	else: # moves == 9
 		$GameOverMenu.get_node("ResultLabel").text = "Game Tied!!"
 	$GameOverMenu.show()
 		
