@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://qefj244uwy1"]
+
+[sub_resource type="Theme" id="Theme_wn2gn"]
+
+[node name="Panel" type="Panel" unique_id=1882669467]
+custom_minimum_size = Vector2(300, 600)
+custom_maximum_size = Vector2(300, 600)
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -300.0
+offset_bottom = 600.0
+grow_horizontal = 0
+theme = SubResource("Theme_wn2gn")
